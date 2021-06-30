@@ -1,0 +1,70 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+/* Utitlity Classes */
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background: #ddd;
+  height: 100vh;
+}
+
+.mainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  background: #fff;
+  height: 142px;
+  padding: 25px;
+}
+
+.btn-primary {
+  border-radius: 5%;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border: 1px solid #b24242;
+}
+
+.input-primary {
+  height: 45px;
+  text-align: center;
+  border: 1px solid #b24242;
+  margin: 0;
+  padding: 0;
+  background: #fbe8e8;
+}
+
+.add-btn {
+  background: #b24242;
+  border-radius: 0 15% 15% 0;
+  color: #fff;
+}
+
+.sub-btn {
+  border-radius: 15% 0 0 15%;
+  color: #b24242;
+}
+
+/* .subicon-clr {
+  color: #b24242;
+} */
